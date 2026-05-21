@@ -5,11 +5,13 @@
 
 /*=========Body=========*/
 
-/* Update your body block to this */
 body {
-    background: #000;
-    margin: 0;
-}
+	background-color:#edecec;
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	max-width:1024px;
+	}
 	
 /*=========Navigation=========*/
 
