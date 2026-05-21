@@ -220,7 +220,14 @@ textarea {
 	
 }
 	
-
-
-
+/* This only applies to mobile devices */
+@media only screen and (max-width: 600px) {
+    .mainfooter {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+}
 
