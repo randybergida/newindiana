@@ -123,19 +123,22 @@ body {
 /*=========footer=========*/	
 	
 .mainfooter {
-	display:inline;
-	float:left;
-	font-family:Helvetica, Arial, san-serif;
-	font-size:11px;
-	margin-top:100px;
-	text-align:center;
-	width:100%;
-	}
-	
-	.mainfooter img {
-	margin-top:300px;
-	width:25px;
-	}
+    font-family: Helvetica, Arial, san-serif;
+    font-size: 11px;
+    margin-top: 100px; /* This keeps the whole footer 100px below your content */
+    text-align: center;
+    width: 100%;
+}
+
+.mainfooter p {
+    margin: 20px 0; /* A small gap above and below the text */
+}
+
+.mainfooter img {
+    width: 25px;
+    margin: 0 5px; /* Adds a little space between the icons */
+    /* REMOVED: margin-top: 300px; - This was causing the "floating" issue */
+}
 	
 /*=========responsive design=========*/
 
