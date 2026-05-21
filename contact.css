@@ -123,21 +123,19 @@ body {
 /*=========footer=========*/	
 	
 .mainfooter {
-    width: 100%;
-    text-align: center;
-    margin-top: 50px; /* Reduced from 100px to bring it closer */
-    padding-bottom: 20px;
-    clear: both; /* This forces the footer to clear anything above it */
-}
-
-.footer-content p {
-    margin-bottom: 10px; /* Adds a little space between text and icons */
-}
-
-.social-icons img {
-    width: 25px;
-    margin: 0 5px; /* Adds space between the two icons */
-}
+	display:inline;
+	float:left;
+	font-family:Helvetica, Arial, san-serif;
+	font-size:11px;
+	margin-top:100px;
+	text-align:center;
+	width:100%;
+	}
+	
+	.mainfooter img {
+	margin-top:300px;
+	width:25px;
+	}
 	
 /*=========responsive design=========*/
 
