@@ -5,13 +5,14 @@
 
 /*=========Body=========*/
 
+/* Update your body block to this */
 body {
-	background-color:#edecec;
-	margin-left:auto;
-	margin-right:auto;
-	width:80%;
-	max-width:1024px;
-	}
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
 	
 /*=========Navigation=========*/
 
@@ -122,22 +123,19 @@ body {
 	
 /*=========footer=========*/	
 	
+/* Update your .mainfooter block to this */
 .mainfooter {
+    display: inline;
+    float: left;
     font-family: Helvetica, Arial, san-serif;
     font-size: 11px;
-    margin-top: 100px; /* This keeps the whole footer 100px below your content */
+    margin-top: auto; /* This is the magnet */
     text-align: center;
     width: 100%;
 }
-
-.mainfooter p {
-    margin: 20px 0; /* A small gap above and below the text */
-}
-
 .mainfooter img {
     width: 25px;
-    margin: 0 5px; /* Adds a little space between the icons */
-    /* REMOVED: margin-top: 300px; - This was causing the "floating" issue */
+    /* Removed the margin-top: 300px; line */
 }
 	
 /*=========responsive design=========*/
